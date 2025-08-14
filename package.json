@@ -1,0 +1,24 @@
+{
+  "name": "radar-graph",
+  "version": "0.1.0",
+  "description": "React Radar Matrix component that renders a Chart.js radar from JSON structure.",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "require": "./index.js"
+    }
+  },
+  "keywords": ["react", "chart.js", "matrix", "visualization"],
+  "author": "rubbx",
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "react": ">=17",
+    "react-dom": ">=17",
+    "chart.js": ">=4"
+  },
+  "sideEffects": false
+}
